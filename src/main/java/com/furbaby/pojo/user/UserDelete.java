@@ -1,0 +1,11 @@
+package com.furbaby.pojo.user;
+
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Getter;
+
+@Getter
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class UserDelete {
+    private String detail;
+}
